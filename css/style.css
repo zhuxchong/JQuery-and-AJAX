@@ -1,0 +1,147 @@
+﻿body{
+	margin: 40px 0 0 0;
+	padding:0;
+	font-size: 12px;
+	background-color: white;
+}
+#header{
+	width:100%;
+	height: 40px;
+	background:url(../img/header_bg.png);
+	position: absolute;
+	top:0;
+}
+#header .header_main{
+	width: 800px;
+	height: 40px;
+	margin:0 auto;
+}
+#header .header_main h1{
+	font-size: 20px;
+	margin: 0px 10px;
+	padding: 0;
+	color:#666666;
+	height: 40px;
+	line-height: 40px;
+	float:left;
+}
+#header .header_search{
+	padding:6px 0 0 0;
+	float: left;
+}
+#header .header_search .search{
+	width: 300px;
+	height: 24px;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	color: #666666;
+	font-size: 14px;
+	text-indent: 5px;
+}
+#header .header_button{
+	float:left;
+	padding:6px;
+}
+#header .header_member{
+	float: right;
+	height:40px;
+	line-height: 40px;
+	color:#555;
+	font-size:14px;
+}
+#header .header_member a{
+	text-decoration: none;
+	color:#555;
+	font-size:14px;
+}
+
+/*From Jquery UI*/
+.ui-widget-header{
+	background: url("../img/ui_header_bg.png");
+}
+.ui-state-default,  .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:url(../img/ui_header_bg.png);
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background:url(../img/ui_white.png);
+}
+
+#reg .text,#login .text{
+	border-radius: 5px;
+	border:1px solid #ccc;
+	width: 200px;
+	height:25px;
+	background: #fff;
+	color:#666666;
+	line-height: 25px;
+}
+
+#reg .succ,#login .succ{
+	display: inline-block;
+	background: url(../img/reg_succ.png) no-repeat;
+	width: 20px;
+}
+#reg p,#login p{
+	margin:10px 0;
+	padding:0;
+}
+#reg,#login{
+	padding:15px 0 0 15px;
+}
+#reg p label,#login p label{
+	font-size:14px;
+	color: #666666;
+}
+#reg .star,#login .star{
+	color:red;
+}
+#reg .test,#login .test{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+}
+#reg .gender,#login .gender{
+	display: inline-block;
+	width: 50px;
+}
+ #reg ol, #login ol{
+	 margin:0 5px 0 0;
+	 padding:0 5px 0 20px;
+ }
+
+#reg ol li,#login ol li{
+	line-height: 10px;
+	height: 20px;
+	color:brown;
+}
+.ui-tooltip{
+	color: #666666;
+
+}
+.ui-menu-item a.ui-state-focus{
+	background: url(../img/ui_white.png);
+}
+.ui-menu-item a{
+	color:#666;
+}
+/*today*/
+.ui-datepicker-today .ui-state-highlight {
+	border:1px solid #eee;
+	color:#f60;
+}
+/*pick date */
+.ui-datepicker-current-day .ui-state-active {
+	border:1px solid #eee;
+	color:#06f;
+}
+
+#loading{
+
+	background: url(../img/loading.gif) no-repeat 20px center;
+}
+#loading p{
+	font-weight: 900;
+	font-size: 14px;
+	text-indent: 40px;
+	color:#666666;
+}
